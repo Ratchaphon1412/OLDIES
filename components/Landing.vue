@@ -1,19 +1,23 @@
 <template>
   <section class="overflow-hidden">
-    <div class="relative overflow-hidden background-city">
+    <div class="relative overflow-hidden background-city h-screen">
       <div
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
         style="background-color: rgba(0, 0, 0, 0.25)"
       >
         <div class="flex justify-center items-center h-full">
-          <div class="text-center text-white px-8 md:px-12 w-1/2">
+          <div
+            class="text-center text-white px-8 md:px-12 lg:w-1/2 md:w-2/3 sm:w-2/3 xs:w-2/3"
+          >
             <h1
-              class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12"
+              class="xl:text-4xl lg:text-2xl md:text-xl xs:text-base ms:text-lg font-bold tracking-tight mb-12"
             >
               OLDIES
               <!-- OLDIES <br /><span>for your business</span> -->
             </h1>
-            <p class="text-xl md:text-2xl font-medium tracking-tight mb-12">
+            <p
+              class="xl:text-xl md:text-base sm:text-sm xs:text-xs font-medium tracking-tight mb-12"
+            >
               We connect health conscious travelers to top-notch medical,
               healthcare, and wellness facilities in Thailand. We are passionate
               about making high-quality healthcare services accessible and
@@ -36,10 +40,9 @@
 
 <style scoped>
 .background-city {
-  background-image: url('@/assets/images/sea_mounten.jpg');
+  background-image: url('@/assets/images/City.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
 }
 </style>

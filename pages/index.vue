@@ -1,17 +1,20 @@
 <template>
   <!-- <Tutorial /> -->
   <div>
-    <landingBG />
+    <landing />
+    <Problem />
   </div>
 </template>
 
 <script>
-import landingBG from '@/components/landingBG.vue'
+import landing from '@/components/Landing.vue'
+import Problem from '@/components/Problem.vue'
 export default {
   name: 'IndexPage',
   layout: 'NavbarFooterLayout',
   components: {
-    landingBG,
+    landing,
+    Problem,
   },
 }
 </script>
