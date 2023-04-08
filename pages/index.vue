@@ -1,11 +1,17 @@
 <template>
   <!-- <Tutorial /> -->
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <div>
+    <landingBG />
+  </div>
 </template>
 
 <script>
+import landingBG from '@/components/landingBG.vue'
 export default {
   name: 'IndexPage',
   layout: 'NavbarFooterLayout',
+  components: {
+    landingBG,
+  },
 }
 </script>
