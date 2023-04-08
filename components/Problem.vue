@@ -18,13 +18,46 @@
           experience.
         </p>
       </div>
-      <!--ICON-->
-      <div class="flex-col justify-center">
-        <div>
+    </div>
+    <!--ICON-->
+    <div class="flex flex-wrap justify-around">
+      <div>
+        <div class="p-10 bg-[#486284] rounded-2xl mb-8 text-center">
           <!--icon-->
+          <i class="bi bi-currency-dollar text-white"></i>
         </div>
-        <div></div>
-        <div></div>
+        <div class="text-center text-white mb-4">
+          <h3 class="text-bold text-lg mb-4">High Costs</h3>
+          <p class="text-base">
+            High healthcare costs <br />in Western <br />countries
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="p-10 bg-[#486284] rounded-2xl mb-8 text-white text-center">
+          <i class="bi bi-hand-thumbs-up-fill"></i>
+        </div>
+        <div class="text-center text-white mb-4">
+          <h3 class="text-bold text-lg mb-4">Trust</h3>
+          <p class="text-base">
+            Lack of transparency in <br />
+            finding reliable<br />
+            providers
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="p-10 bg-[#486284] rounded-2xl mb-8 text-center">
+          <i class="bi bi-emoji-smile-fill text-white"></i>
+        </div>
+        <div class="text-center text-white mb-4">
+          <h3 class="text-bold text-white text-lg mb-4">Easy</h3>
+          <p class="text-base">
+            Complexity in booking <br />
+            process
+          </p>
+        </div>
       </div>
     </div>
   </section>
