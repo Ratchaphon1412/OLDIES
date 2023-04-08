@@ -2,7 +2,7 @@
   <section class="w-full bg-[#001F3F]">
     <div class="flex justify-center">
       <div
-        class="flex-col justify-items-center text-center py-16 md:w-1/2 sm:xs:w-2/3"
+        class="flex-col justify-items-center text-center py-16 w-1/2 md:w-1/2 sm:w-3/4 xs:w-3/4"
       >
         <h1
           class="xl:text-2xl lg:text-xl md:text-lg xs:text-ms ms:text-base font-bold text-white mb-8"
@@ -20,9 +20,9 @@
       </div>
     </div>
     <!--ICON-->
-    <div class="flex flex-wrap justify-around">
-      <div>
-        <div class="p-10 bg-[#486284] rounded-2xl mb-8 text-center">
+    <div class="flex flex-wrap justify-around py-16">
+      <div class="flex flex-col items-center">
+        <div class="p-10 bg-[#486284] w-fit rounded-2xl mb-8 text-center">
           <!--icon-->
           <i class="bi bi-currency-dollar text-white"></i>
         </div>
@@ -34,8 +34,10 @@
         </div>
       </div>
 
-      <div>
-        <div class="p-10 bg-[#486284] rounded-2xl mb-8 text-white text-center">
+      <div class="flex flex-col items-center">
+        <div
+          class="p-10 w-fit bg-[#486284] rounded-2xl mb-8 text-white text-center"
+        >
           <i class="bi bi-hand-thumbs-up-fill"></i>
         </div>
         <div class="text-center text-white mb-4">
@@ -47,8 +49,8 @@
           </p>
         </div>
       </div>
-      <div>
-        <div class="p-10 bg-[#486284] rounded-2xl mb-8 text-center">
+      <div class="flex flex-col items-center">
+        <div class="p-10 w-fit bg-[#486284] rounded-2xl mb-8 text-center">
           <i class="bi bi-emoji-smile-fill text-white"></i>
         </div>
         <div class="text-center text-white mb-4">
