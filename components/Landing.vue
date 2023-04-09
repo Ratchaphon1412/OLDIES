@@ -40,7 +40,7 @@
 
 <style scoped>
 .background-city {
-  background-image: url('@/assets/images/City.jpg');
+  background-image: url('@/assets/images/sea_mounten.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
