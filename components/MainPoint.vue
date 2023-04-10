@@ -2,14 +2,14 @@
   <section class="mx-auto px-6 p-20 bg-black text-white">
     <!---content-->
     <div class="flex items-center flex-wrap text-center mb-20">
-      <div class="w-full md:w-1/2 px-12 mb-20">
+      <div class="flex w-full md:w-1/2 mb-20 justify-center">
         <img
-          src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          src="@/assets/images/mainconcept1.png"
           class="rounded-lg"
           alt="Reporting"
         />
       </div>
-      <div class="w-full md:w-1/2 pl-10">
+      <div class="w-full md:w-1/2 px-12 pl-10">
         <h4 class="text-3xl font-bold mb-3">
           Connecting Travellers with Affordable High-Quality Medical and
           Wellness Providers in Thailand
@@ -25,7 +25,9 @@
       </div>
     </div>
 
-    <div class="flex items-center flex-wrap text-center mb-20">
+    <div
+      class="flex items-center flex-wrap flex-col-reverse md:flex-row text-center mb-20"
+    >
       <div class="w-full md:w-1/2 px-12 mb-20">
         <h4 class="text-3xl font-bold mb-3">
           Ensuring Quality and Transparency in Medical and Wellness Provider
@@ -43,9 +45,9 @@
         </p>
       </div>
       <!--image-->
-      <div class="w-full md:w-1/2 p-10">
+      <div class="flex w-full md:w-1/2 mb-20 justify-center">
         <img
-          src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          src="@/assets/images/mainconcept2.png"
           class="rounded-lg"
           alt="Monitoring"
         />
@@ -53,14 +55,14 @@
     </div>
 
     <div class="flex items-center flex-wrap mb-20 text-center">
-      <div class="w-full md:w-1/2 px-8 mb-20">
+      <div class="flex w-full md:w-1/2 px-12 mb-20 justify-center">
         <img
-          src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          src="@/assets/images/mainconcept3.png"
           class="rounded-lg"
           alt="Reporting"
         />
       </div>
-      <div class="w-full md:w-1/2 pl-10">
+      <div class="w-full md:w-1/2 px-12 pl-10">
         <h4 class="text-3xl font-bold mb-3">
           Simplifying Healthcare Provider Booking and Scheduling for Travellers.
         </h4>
