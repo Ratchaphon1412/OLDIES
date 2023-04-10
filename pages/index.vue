@@ -5,6 +5,7 @@
     <Problem />
     <Solution />
     <MainPoint />
+    <Endlanding />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import landing from '@/components/Landing.vue'
 import Problem from '@/components/Problem.vue'
 import Solution from '@/components/Solution.vue'
 import MainPoint from '@/components/MainPoint.vue'
+import Endlanding from '@/components/EndLanding.vue'
 export default {
   name: 'IndexPage',
   layout: 'NavbarFooterLayout',
@@ -21,6 +23,7 @@ export default {
     Problem,
     Solution,
     MainPoint,
+    Endlanding,
   },
 }
 </script>
