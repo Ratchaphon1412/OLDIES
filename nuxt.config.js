@@ -27,6 +27,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    'vue-scrollto/nuxt',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/postcss8',
   ],
