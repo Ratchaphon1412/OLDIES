@@ -43,7 +43,7 @@
               <p class="font-bold mb-4">
                 Praesentium voluptatibus temporibus consequatur non aspernatur?
               </p> -->
-              <p class="text-gra-500">
+              <p class="text-gra-500 mb-16">
                 An innovative, user-friendly online platform that revolutionizes
                 Thailand's medical and wellness travel industry. The platform
                 provides cost-effective, personalized, and transparent
@@ -51,12 +51,63 @@
                 healthcare facilities. The smoother booking process ensures a
                 convenient satisfying experience for all.
               </p>
+              <div class="flex justify-start">
+                <ul
+                  class="flex flex-col gap-y-8 max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400"
+                >
+                  <li class="flex items-center">
+                    <svg
+                      class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                    High cost
+                  </li>
+                  <li class="flex items-center">
+                    <svg
+                      class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                    Lack of Transparency
+                  </li>
+                  <li class="flex items-center">
+                    <svg
+                      class="w-4 h-4 mr-1.5 text-green-500 dark:text-green-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                    Complexity in booking
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div class="p-8 ml-3">
+          <div class="p-28 ml-3">
             <img
-              src="https://mdbootstrap.com/img/new/ecommerce/vertical/075.jpg"
+              src="@/assets/images/prototype.png"
               class="w-full rounded-lg shadow-lg"
               alt=""
             />
