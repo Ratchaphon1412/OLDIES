@@ -1,5 +1,5 @@
 <template>
-  <div class="px-6 mx-auto bg-[#101529]">
+  <div id="solution" class="px-6 mx-auto bg-[#101529]">
     <!-- Section: Design Block -->
     <section class="text-gray-800">
       <!-- Jumbotron -->
