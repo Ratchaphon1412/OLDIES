@@ -3,7 +3,7 @@
     <div class="relative overflow-hidden background-city h-screen">
       <div
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-        style="background-color: rgba(0, 0, 0, 0.25)"
+        style="background-color: rgba(0, 0, 0, 0.3)"
       >
         <div class="flex justify-center items-center h-full">
           <div
@@ -40,7 +40,7 @@
 
 <style scoped>
 .background-city {
-  background-image: url('@/assets/images/sea_mounten.jpg');
+  background-image: url('@/assets/images/City.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
