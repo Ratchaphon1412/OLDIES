@@ -1,5 +1,5 @@
 <template>
-  <section class="overflow-hidden">
+  <section id="home" class="overflow-hidden">
     <div class="relative overflow-hidden background-city h-screen">
       <div
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
