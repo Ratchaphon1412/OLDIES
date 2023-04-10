@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full bg-[#001F3F]">
+  <section id="problem" class="w-full bg-[#001F3F]">
     <div class="flex justify-center">
       <div
         class="flex-col justify-items-center text-center py-16 w-1/2 md:w-1/2 sm:w-3/4 xs:w-3/4"
