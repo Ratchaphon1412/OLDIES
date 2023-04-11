@@ -15,7 +15,9 @@
           alt="office content 2"
         />
       </div>
-      <div class="mt-8 font-light text-gray-500 sm:text-lg dark:text-gray-400">
+      <div
+        class="mt-8 font-light text-gray-500 sm:text-lg dark:text-gray-400 p-10"
+      >
         <h2
           class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
         >
