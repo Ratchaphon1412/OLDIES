@@ -18,13 +18,10 @@
             <p
               class="xl:text-xl md:text-base sm:text-sm xs:text-xs font-medium tracking-tight mb-12"
             >
-              Get ready to transform your medical and wellness experience in
-              Thailand with Oldies! Our innovative app is coming soon,
-              connecting you with top-quality healthcare providers and
-              personalized treatments at your fingertips. Discover, compare, and
-              book top-quality facilities with ease, transparency, and
-              confidence. Stay tuned for the launch and join us on this exciting
-              journey to revolutionize your medical & wellness experience!
+              We connect you with premier medical and healthcare facilities in
+              Thailand. Discover, compare, and book seamlessly and confidently.
+              Stay tuned for our launch and join our mission to revolutionize
+              your medical and healthcare experience!
             </p>
           </div>
         </div>
