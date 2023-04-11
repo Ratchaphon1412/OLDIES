@@ -8,10 +8,6 @@
           <div class="mb-12 lg:mb-0">
             <div
               class="block rounded-lg shadow-lg px-6 py-12 lg:py-6 xl:py-12 md:px-12 lg:-mr-14 text-white"
-              style="
-                background: hsla(0, 0%, 100%, 0.55);
-                backdrop-filter: blur(30px);
-              "
             >
               <h1 class="text-2xl font-bold mb-3">THE SOLUTION</h1>
               <!-- <h5
