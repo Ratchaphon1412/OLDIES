@@ -4,7 +4,7 @@
       <VideoBangkok class="jarallax" />
 
       <div
-        class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+        class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed js-show-on-scroll"
         style="background-color: rgba(0, 0, 0, 0.3)"
       >
         <div class="flex justify-center items-center h-full">

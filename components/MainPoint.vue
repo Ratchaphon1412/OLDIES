@@ -1,7 +1,9 @@
 <template>
   <section class="mx-auto px-6 p-20 bg-black text-white">
     <!---content-->
-    <div class="flex items-center flex-wrap text-center mb-20">
+    <div
+      class="flex items-center flex-wrap text-center mb-20 js-show-on-scroll"
+    >
       <div class="flex w-full md:w-1/2 mb-20 justify-center">
         <!-- <img
           src="@/assets/images/mainconcept1.png"
@@ -29,7 +31,7 @@
     </div>
 
     <div
-      class="flex items-center flex-wrap flex-col-reverse md:flex-row text-center mb-20"
+      class="flex items-center flex-wrap flex-col-reverse md:flex-row text-center mb-20 js-show-on-scroll"
     >
       <div class="w-full md:w-1/2 px-12 mb-20">
         <h4 class="text-3xl font-bold mb-3">
@@ -60,7 +62,9 @@
       </div>
     </div>
 
-    <div class="flex items-center flex-wrap mb-20 text-center">
+    <div
+      class="flex items-center flex-wrap mb-20 text-center js-show-on-scroll"
+    >
       <div class="flex w-full md:w-1/2 px-12 mb-20 justify-center">
         <!-- <img
           src="@/assets/images/mainconcept3.png"
