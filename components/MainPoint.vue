@@ -3,11 +3,14 @@
     <!---content-->
     <div class="flex items-center flex-wrap text-center mb-20">
       <div class="flex w-full md:w-1/2 mb-20 justify-center">
-        <img
+        <!-- <img
           src="@/assets/images/mainconcept1.png"
           class="rounded-lg"
           alt="Reporting"
-        />
+        /> -->
+        <video autoplay loop muted playsinline class="rounded-lg">
+          <source src="video/1.mp4" type="video/mp4" />
+        </video>
       </div>
       <div class="w-full md:w-1/2 px-12 pl-10">
         <h4 class="text-3xl font-bold mb-3">
@@ -46,21 +49,27 @@
       </div>
       <!--image-->
       <div class="flex w-full md:w-1/2 mb-20 justify-center">
-        <img
+        <!-- <img
           src="@/assets/images/mainconcept2.png"
           class="rounded-lg"
           alt="Monitoring"
-        />
+        /> -->
+        <video autoplay loop muted playsinline class="rounded-lg">
+          <source src="video/2.mp4" type="video/mp4" />
+        </video>
       </div>
     </div>
 
     <div class="flex items-center flex-wrap mb-20 text-center">
       <div class="flex w-full md:w-1/2 px-12 mb-20 justify-center">
-        <img
+        <!-- <img
           src="@/assets/images/mainconcept3.png"
           class="rounded-lg"
           alt="Reporting"
-        />
+        /> -->
+        <video autoplay loop muted playsinline class="rounded-lg">
+          <source src="video/3.mp4" type="video/mp4" />
+        </video>
       </div>
       <div class="w-full md:w-1/2 px-12 pl-10">
         <h4 class="text-3xl font-bold mb-3">

@@ -20,6 +20,8 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/bootstrapIcons.js',
+    '~/plugins/vuescrollto.js',
+    
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
