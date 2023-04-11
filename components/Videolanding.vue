@@ -11,7 +11,7 @@ export default {
   name: 'VideoBangkok',
   mounted() {
     const video = this.$refs.bangkok
-    video.playbackRate = 2
+    video.playbackRate = 2.5
   },
 }
 </script>
