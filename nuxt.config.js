@@ -18,13 +18,16 @@ export default {
   css: ['@/assets/css/main.css',],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    '~/plugins/bootstrapIcons.js',
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    'vue-scrollto/nuxt',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/postcss8',
   ],

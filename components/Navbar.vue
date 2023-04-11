@@ -1,17 +1,48 @@
+<script setup>
+import { onMounted } from 'vue'
+import {
+  initAccordions,
+  initCarousels,
+  initCollapses,
+  initDials,
+  initDismisses,
+  initDrawers,
+  initDropdowns,
+  initModals,
+  initPopovers,
+  initTabs,
+  initTooltips,
+} from 'flowbite'
+
+// initialize components based on data attribute selectors
+onMounted(() => {
+  initAccordions()
+  initCarousels()
+  initCollapses()
+  initDials()
+  initDismisses()
+  initDrawers()
+  initDropdowns()
+  initModals()
+  initPopovers()
+  initTabs()
+  initTooltips()
+})
+</script>
+
 <template>
-  <nav class="bg-white border-gray-200 dark:bg-gray-900">
+  <nav
+    class="fixed w-full z-20 top-0 left-0 transition-colors duration-300"
+    :class="[scrolled ? 'background-solid-nav' : 'bg-transparent']"
+  >
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
     >
       <a href="https://flowbite.com/" class="flex items-center">
-        <img
-          src="https://flowbite.com/docs/images/logo.svg"
-          class="h-8 mr-3"
-          alt="Flowbite Logo"
-        />
+        <img src="OldiesLogo.ico" class="h-8 mr-3" alt="Flowbite Logo" />
         <span
-          class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-          >Flowbite</span
+          class="self-center text-2xl font-semibold whitespace-nowrap text-white"
+          >OLDIES</span
         >
       </a>
       <button
@@ -36,48 +67,80 @@
           ></path>
         </svg>
       </button>
+
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
         >
           <li>
             <a
-              href="#"
-              class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+              v-scroll-to="'#home'"
+              class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-white md:p-0 dark:text-white"
               aria-current="page"
               >Home</a
             >
           </li>
           <li>
             <a
-              href="#"
-              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >About</a
+              v-scroll-to="'#problem'"
+              class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:hover:text-white md:dark:hover:bg-transparent"
+              >Problem</a
             >
           </li>
           <li>
             <a
-              href="#"
-              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >Services</a
+              v-scroll-to="'#solution'"
+              class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 md:dark:hover:bg-transparent"
+              >Solution</a
             >
           </li>
           <li>
             <a
-              href="#"
-              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >Pricing</a
+              class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+              >Target</a
             >
           </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >Contact</a
+          <li class="">
+            <button
+              type="button"
+              class="text-white bg-[#2D3648] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0"
             >
+              Contect
+            </button>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </template>
+<script>
+import { VScrollTo } from 'vue-scrollto'
+
+export default {
+  components: {
+    VScrollTo,
+  },
+  data() {
+    return {
+      scrolled: false,
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll() {
+      this.scrolled = window.scrollY > 0
+    },
+  },
+}
+</script>
+
+<style scoped>
+.background-solid-nav {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+</style>
