@@ -17,7 +17,7 @@
           Connecting Travellers with Affordable High-Quality Medical and
           Wellness Providers in Thailand
         </h4>
-        <p class="mb-8">
+        <p class="mb-8 text-gray-500">
           Oldies compiles a list of medical and wellness providers in Thailand
           who provide high-quality services at affordable rates. The platform
           enables travellers to make informed decisions and gain access to more
@@ -36,7 +36,7 @@
           Ensuring Quality and Transparency in Medical and Wellness Provider
           Selection
         </h4>
-        <p class="mb-8">
+        <p class="mb-8 text-gray-500">
           Oldies has an extensive screening procedure for service providers,
           ensuring that they comply to strict standards of excellence and have
           all the necessary certifications and accreditations. The platform
@@ -75,7 +75,7 @@
         <h4 class="text-3xl font-bold mb-3">
           Simplifying Healthcare Provider Booking and Scheduling for Travellers.
         </h4>
-        <p class="mb-8">
+        <p class="mb-8 text-gray-500">
           Oldies simplify the entire experience for travellers by offering a
           user-friendly, smoother booking process. Through the app or website,
           travellers can easily search for, compare, and book appointments with

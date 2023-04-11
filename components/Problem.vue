@@ -10,7 +10,7 @@
           THE PROBLEMS
         </h1>
         <p
-          class="xl:text-xl lg:text-lg md:text-base xs:text-xs ms:text-ms text-white"
+          class="xl:text-xl lg:text-lg md:text-base xs:text-xs ms:text-ms text-gray-400"
         >
           Thailand's medical-wellness tourism thrives, but travellers struggle
           with finding appropriate providers amid diverse options, quality, and
@@ -28,7 +28,7 @@
         </div>
         <div class="text-center text-white mb-4">
           <h3 class="text-bold text-lg mb-4">High Costs</h3>
-          <p class="text-base">
+          <p class="text-base text-gray-400">
             High healthcare costs <br />in Western <br />countries
           </p>
         </div>
@@ -42,7 +42,7 @@
         </div>
         <div class="text-center text-white mb-4">
           <h3 class="text-bold text-lg mb-4">Trust</h3>
-          <p class="text-base">
+          <p class="text-base text-gray-400">
             Lack of transparency in <br />
             finding reliable<br />
             providers
@@ -55,7 +55,7 @@
         </div>
         <div class="text-center text-white mb-4">
           <h3 class="text-bold text-white text-lg mb-4">Easy</h3>
-          <p class="text-base">
+          <p class="text-base text-gray-400">
             Complexity in booking <br />
             process
           </p>
