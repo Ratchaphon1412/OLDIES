@@ -5,7 +5,7 @@
     <Problem />
     <Solution />
     <MainPoint />
-    <TargetCustomer />
+    <!-- <TargetCustomer /> -->
     <Contact />
     <Endlanding />
   </div>
