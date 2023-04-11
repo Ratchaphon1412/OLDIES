@@ -1,7 +1,7 @@
 <template>
   <div id="solution" class="px-6 mx-auto bg-[#101529]">
     <!-- Section: Design Block -->
-    <section class="text-gray-800">
+    <section class="text-gray-800 js-show-on-scroll">
       <!-- Jumbotron -->
       <div class="container mx-auto xl:px-32 text-center lg:text-left">
         <div class="grid lg:grid-cols-2 flex items-center">

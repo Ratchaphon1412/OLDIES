@@ -1,6 +1,6 @@
 <template>
   <section id="problem" class="w-full bg-[#001F3F]">
-    <div class="flex justify-center">
+    <div class="flex justify-center js-show-on-scroll">
       <div
         class="flex-col justify-items-center text-center py-16 w-1/2 md:w-1/2 sm:w-3/4 xs:w-3/4"
       >
@@ -10,7 +10,7 @@
           THE PROBLEMS
         </h1>
         <p
-          class="xl:text-xl lg:text-lg md:text-base xs:text-xs ms:text-ms text-gray-400"
+          class="xl:text-xl lg:text-lg md:text-base xs:text-xs ms:text-ms text-gray-400 motion-safe:animate-fadeIn"
         >
           Thailand's medical-wellness tourism thrives, but travellers struggle
           with finding appropriate providers amid diverse options, quality, and
@@ -20,7 +20,7 @@
       </div>
     </div>
     <!--ICON-->
-    <div class="flex flex-wrap justify-around py-16">
+    <div class="flex flex-wrap justify-around py-16 js-show-on-scroll">
       <div class="flex flex-col items-center">
         <div class="p-10 bg-[#486284] w-fit rounded-2xl mb-8 text-center">
           <!--icon-->
