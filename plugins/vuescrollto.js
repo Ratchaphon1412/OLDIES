@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueScrollTo from 'vue-scrollto'
 
 Vue.use(VueScrollTo,{
-    duration: 500,
+    duration: 800,
      easing: "ease",
      offset: 0,
      force: true,
