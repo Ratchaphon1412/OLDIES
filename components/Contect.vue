@@ -7,8 +7,13 @@
         Contact Us
       </h2>
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-400 sm:text-xl">
-        Got a technical issue? Want to send feedback about a beta feature? Need
-        details about our Business plan? Let us know.
+        Share your thoughts with us! We are currently refining our
+        groundbreaking medical and wellness tourism app to offer you a seamless,
+        transparent, and personalized experience in finding and booking
+        healthcare providers in Thailand. If you're intrigued by our concept,
+        have suggestions for enhancement, or would like to be among the first
+        users of our platform, please don't hesitate to reach out. We'd love to
+        hear from you and have you be part of our exciting journey!
       </p>
       <form action="#" class="space-y-8">
         <div>
