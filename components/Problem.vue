@@ -12,10 +12,12 @@
         <p
           class="xl:text-xl lg:text-lg md:text-base xs:text-xs ms:text-ms text-gray-400 motion-safe:animate-fadeIn"
         >
-          Thailand's medical-wellness tourism thrives, but travellers struggle
-          with finding appropriate providers amid diverse options, quality, and
-          pricing, resulting in a time-consuming, stressful, and frustrating
-          experience.
+          Skyrocketing healthcare costs globally have pushed individuals to
+          explore options beyond their home countries. However, navigating a sea
+          of diverse providers, differing quality standards, and fluctuating
+          prices creates a time consuming, stressful, and frustrating experience
+          for travellers. A groundbreaking solution is urgently needed to
+          simplify this process and transform the medical tourism experience.
         </p>
       </div>
     </div>
@@ -29,7 +31,8 @@
         <div class="text-center text-white mb-4">
           <h3 class="text-bold text-lg mb-4">High Costs</h3>
           <p class="text-base text-gray-400">
-            High healthcare costs <br />in Western <br />countries
+            High healthcare<br />
+            cost worldwide
           </p>
         </div>
       </div>
@@ -41,7 +44,7 @@
           <i class="bi bi-hand-thumbs-up-fill"></i>
         </div>
         <div class="text-center text-white mb-4">
-          <h3 class="text-bold text-lg mb-4">Trust</h3>
+          <h3 class="text-bold text-lg mb-4">No transparency</h3>
           <p class="text-base text-gray-400">
             Lack of transparency in <br />
             finding reliable<br />
@@ -54,7 +57,7 @@
           <i class="bi bi-emoji-smile-fill text-white"></i>
         </div>
         <div class="text-center text-white mb-4">
-          <h3 class="text-bold text-white text-lg mb-4">Easy</h3>
+          <h3 class="text-bold text-white text-lg mb-4">Complicated</h3>
           <p class="text-base text-gray-400">
             Complexity in booking <br />
             process

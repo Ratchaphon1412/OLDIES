@@ -64,7 +64,7 @@
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                    High cost
+                    Affordable
                   </li>
                   <li class="flex items-center">
                     <svg
@@ -79,7 +79,7 @@
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                    Lack of Transparency
+                    Trustworthy
                   </li>
                   <li class="flex items-center">
                     <svg
@@ -94,7 +94,7 @@
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                    Complexity in booking
+                    Easy
                   </li>
                 </ul>
               </div>

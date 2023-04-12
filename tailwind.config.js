@@ -39,6 +39,9 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      fontFamily:{
+        Poppins: ['Poppins', 'sans-serif'],
       }
     }
   },

@@ -1,6 +1,6 @@
 <template>
   <!-- <Tutorial /> -->
-  <div>
+  <div class="font-Poppins">
     <landing />
     <Problem />
     <Solution />
