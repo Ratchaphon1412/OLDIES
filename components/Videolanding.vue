@@ -1,6 +1,6 @@
 <template>
   <div>
-    <video ref="bangkok" autoplay loop muted playsinline>
+    <video id="videoBangkok" ref="bangkok" autoplay loop muted playsinline>
       <source src="video/Bangkok.mp4" type="video/mp4" />
     </video>
   </div>
