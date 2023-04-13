@@ -94,15 +94,16 @@ onMounted(() => {
               >Solution</a
             >
           </li>
-          <li>
+          <!-- <li>
             <a
               v-scroll-to="'#target'"
               class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >Target</a
             >
-          </li>
+          </li> -->
           <li class="">
             <button
+              v-scroll-to="'#contact'"
               type="button"
               class="text-white bg-[#2D3648] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0"
             >
