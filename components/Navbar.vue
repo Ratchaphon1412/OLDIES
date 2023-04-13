@@ -70,12 +70,12 @@ onMounted(() => {
 
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
+          class="font-medium flex flex-col items-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
         >
           <li>
             <a
               v-scroll-to="'#home'"
-              class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-white md:p-0 dark:text-white"
+              class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-white md:p-0 dark:text-white md:hover:text-blue-700"
               aria-current="page"
               >Home</a
             >
