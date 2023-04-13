@@ -1,5 +1,7 @@
+require('dotenv').config()
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  mode: 'universal',
   head: {
     title: 'OLDIES',
     htmlAttrs: {
@@ -30,6 +32,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     'vue-scrollto/nuxt',
+    '@nuxtjs/dotenv',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/postcss8',
   ],

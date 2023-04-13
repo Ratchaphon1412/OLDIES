@@ -70,12 +70,12 @@ onMounted(() => {
 
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
+          class="font-medium flex flex-col items-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
         >
           <li>
             <a
               v-scroll-to="'#home'"
-              class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-white md:p-0 dark:text-white"
+              class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-white md:p-0 dark:text-white md:hover:text-blue-700"
               aria-current="page"
               >Home</a
             >
@@ -94,15 +94,16 @@ onMounted(() => {
               >Solution</a
             >
           </li>
-          <li>
+          <!-- <li>
             <a
               v-scroll-to="'#target'"
               class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >Target</a
             >
-          </li>
+          </li> -->
           <li class="">
             <button
+              v-scroll-to="'#contact'"
               type="button"
               class="text-white bg-[#2D3648] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0"
             >
