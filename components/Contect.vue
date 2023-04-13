@@ -23,6 +23,7 @@
             >Your email</label
           >
           <input
+            v-model="email"
             type="email"
             id="email"
             class="shadow-sm text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:border-primary-500 shadow-sm-light"
@@ -37,6 +38,7 @@
             >Subject</label
           >
           <input
+            v-model="subject"
             type="text"
             id="subject"
             class="block p-3 w-full text-sm rounded-lg border shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
@@ -51,6 +53,7 @@
             >Your message</label
           >
           <textarea
+            v-model="message"
             id="message"
             rows="6"
             class="block p-2.5 w-full text-sm rounded-lg shadow-sm border focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500"
@@ -58,8 +61,9 @@
           ></textarea>
         </div>
         <button
+          @click="submitForm"
           type="submit"
-          class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-primary-600 hover:bg-primary-700 focus:ring-primary-800"
+          class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-gray-600 hover:bg-gray-700 focus:ring-primary-800"
         >
           Send message
         </button>
@@ -67,3 +71,40 @@
     </div>
   </section>
 </template>
+
+<script>
+import emailjs from 'emailjs-com'
+export default {
+  name: 'Contact',
+
+  data() {
+    return {
+      email: '',
+      subject: '',
+      message: '',
+    }
+  },
+  mounted() {
+    emailjs.init(process.env.EMAILJS_PUBLICKEY)
+  },
+  methods: {
+    submitForm() {
+      console.log(this.email, this.subject, this.message)
+      if (this.email && this.subject && this.message) {
+        try {
+          emailjs.send('service_di89x0v', 'template_y6hkrgq', {
+            email: this.email,
+            message: this.message,
+            Subject: this.subject,
+          })
+        } catch (err) {
+          console.log(err)
+        }
+        this.email = ''
+        this.subject = ''
+        this.message = ''
+      }
+    },
+  },
+}
+</script>
