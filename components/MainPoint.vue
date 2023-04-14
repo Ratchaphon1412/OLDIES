@@ -20,7 +20,7 @@
           Healthcare Providers in Thailand
         </h4>
         <p class="mb-8 text-gray-500">
-          Oldies compiles a list of medical and wellness providers in Thailand
+          Oldies compiles a list of medical and healthcare providers in Thailand
           who provide high-quality services at affordable rates. The platform
           enables travellers to make informed decisions and gain access to more
           affordable healthcare alternatives than those in their home countries
@@ -35,7 +35,7 @@
     >
       <div class="w-full md:w-1/2 md:p-8">
         <h4 class="md:text-2xl text-lg font-bold mb-3">
-          Ensuring Quality and Transparency in Medical and Wellness Provider
+          Ensuring Quality and Transparency in Medical and Healthcare Provider
           Selection
         </h4>
         <p class="mb-8 text-gray-500">
