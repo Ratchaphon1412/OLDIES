@@ -18,7 +18,7 @@
             <p
               class="xl:text-xl md:text-base sm:text-sm xs:text-xs font-medium tracking-tight mb-12"
             >
-              We connect health conscious travelers to top-notch medical,
+              We connect health conscious travellers to top-notch medical,
               healthcare, and wellness facilities in Thailand. We are passionate
               about making high-quality healthcare services accessible and
               affordable for everyone
