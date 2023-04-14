@@ -137,6 +137,7 @@ export default {
   },
 
   mounted() {
+    console.log(process.env.EMAILJS_PUBLICKEY)
     emailjs.init(process.env.EMAILJS_PUBLICKEY)
   },
   methods: {
