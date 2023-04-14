@@ -7,13 +7,10 @@
         Contact Us
       </h2>
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-400 sm:text-xl">
-        Share your thoughts with us! We are currently refining our
-        groundbreaking platform to offer offer you a seamless, transparent, and
-        personalized experience in finding and booking healthcare providers in
-        Thailand. If you're intrigued by our concept, have suggestions for
-        enhancement, or would like to be among the first users of our platform,
-        please don't hesitate to reach out. We'd love to hear from you and have
-        you be part of our exciting journey!
+        If you are intrigued by our concept, have suggestions for enhancement,
+        or would like to be among the first users of our platform, please do not
+        hesitate to reach out. We would love to hear from you and have you be
+        part of our exciting journey!
       </p>
       <form action="#" class="space-y-8">
         <div>
