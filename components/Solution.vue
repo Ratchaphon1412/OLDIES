@@ -41,7 +41,7 @@
               </p> -->
               <p class="text-gray-500 mb-16">
                 An innovative, user-friendly online platform that revolutionizes
-                Thailand's medical and wellness travel industry. The platform
+                your medical, healthcare and wellness journey. The platform
                 provides cost-effective, personalized, and transparent
                 solutions, connecting travellers to reliable medical and
                 healthcare facilities. The smoother booking process ensures a
@@ -103,7 +103,7 @@
 
           <div class="p-28 ml-3">
             <img
-              src="@/assets/images/prototype.png"
+              src="@/assets/images/mockupapp.png"
               class="w-full rounded-lg shadow-lg"
               alt=""
             />
