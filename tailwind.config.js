@@ -22,7 +22,7 @@ module.exports = {
     },
     extend: {
       animation: {
-        fadeIn: "fadeIn 3.5s ease-in forwards"
+        fadeIn: "fadeIn 3.2s ease-in forwards"
       },
       keyframes: {
         fadeIn: {

@@ -21,7 +21,7 @@
               We connect health conscious travelers to top-notch medical,
               healthcare, and wellness facilities in Thailand. We are passionate
               about making high-quality healthcare services accessible and
-              affordable for everyone.
+              affordable for everyone
             </p>
             <a
               v-scroll-to="'#contact'"

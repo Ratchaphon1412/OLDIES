@@ -25,7 +25,7 @@
           enables travellers to make informed decisions and gain access to more
           affordable healthcare alternatives than those in their home countries
           by providing transparent cost information and comparing treatment
-          options.
+          options
         </p>
       </div>
     </div>
@@ -46,7 +46,7 @@
           transparency, allowing potential travellers to gain insight into the
           experiences of others and make more informed decisions by providing
           detailed information on each provider's credentials, facilities, and
-          treatment options, while also fostering travellers’confidence.
+          treatment options, while also fostering travellers’confidence
         </p>
       </div>
       <!--image-->
@@ -77,7 +77,7 @@
       </div>
       <div class="w-full md:w-1/2 md:p-8">
         <h4 class="md:text-2xl text-lg font-bold mb-3">
-          Simplifying Healthcare Provider Booking and Scheduling for Travellers.
+          Simplifying Healthcare Provider Booking and Scheduling for Travellers
         </h4>
         <p class="mb-8 text-gray-500">
           Oldies simplify the entire experience for travellers by offering a
@@ -86,7 +86,7 @@
           healthcare providers. The platform can also integrate with popular
           calendar and scheduling applications to help travellers keep track of
           their appointments and remain organized with a flawless, stress-free
-          experience.
+          experience
         </p>
       </div>
     </div>

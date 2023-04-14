@@ -45,7 +45,7 @@
                 provides cost-effective, personalized, and transparent
                 solutions, connecting travellers to reliable medical and
                 healthcare facilities. The smoother booking process ensures a
-                convenient satisfying experience for all.
+                convenient satisfying experience for all
               </p>
               <div class="flex justify-start">
                 <ul
