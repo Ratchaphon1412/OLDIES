@@ -107,7 +107,7 @@ onMounted(() => {
               type="button"
               class="text-white bg-[#2D3648] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0"
             >
-              Contect
+              Contact
             </button>
           </li>
         </ul>
