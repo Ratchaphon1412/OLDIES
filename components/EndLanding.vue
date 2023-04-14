@@ -9,9 +9,7 @@
           <div
             class="text-center text-white px-8 md:px-12 lg:w-1/2 md:w-2/3 sm:w-2/3 xs:w-2/3"
           >
-            <h1
-              class="xl:text-4xl lg:text-2xl md:text-xl xs:text-base ms:text-lg font-bold tracking-tight mb-12"
-            >
+            <h1 class="md:text-4xl text-3xl font-bold tracking-tight mb-12">
               Coming soon
               <!-- OLDIES <br /><span>for your business</span> -->
             </h1>

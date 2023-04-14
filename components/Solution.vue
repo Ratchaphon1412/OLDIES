@@ -4,7 +4,7 @@
     <section class="text-gray-800 js-show-on-scroll">
       <!-- Jumbotron -->
       <div class="container mx-auto xl:px-32 text-center lg:text-left">
-        <div class="grid lg:grid-cols-2 flex items-center">
+        <div class="grid lg:grid-cols-2 items-center">
           <div class="mb-12 lg:mb-0">
             <div
               class="block rounded-lg shadow-lg px-6 py-12 lg:py-6 xl:py-12 md:px-12 lg:-mr-14 text-white"
@@ -39,7 +39,7 @@
               <p class="font-bold mb-4">
                 Praesentium voluptatibus temporibus consequatur non aspernatur?
               </p> -->
-              <p class="text-gra-500 mb-16">
+              <p class="text-gray-500 mb-16">
                 An innovative, user-friendly online platform that revolutionizes
                 Thailand's medical and wellness travel industry. The platform
                 provides cost-effective, personalized, and transparent

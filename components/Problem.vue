@@ -2,15 +2,13 @@
   <section id="problem" class="w-full bg-[#001F3F]">
     <div class="flex justify-center js-show-on-scroll">
       <div
-        class="flex-col justify-items-center text-center py-16 w-1/2 md:w-1/2 sm:w-3/4 xs:w-3/4"
+        class="flex-col justify-items-center text-center py-16 md:w-1/2 w-11/12"
       >
-        <h1
-          class="xl:text-2xl lg:text-xl md:text-lg xs:text-ms ms:text-base font-bold text-white mb-8"
-        >
+        <h1 class="md:text-xl text-lg font-bold text-white mb-8">
           THE PROBLEMS
         </h1>
         <p
-          class="xl:text-xl lg:text-lg md:text-base xs:text-xs ms:text-ms text-gray-400 motion-safe:animate-fadeIn"
+          class="md:text-base text-ms text-gray-400 motion-safe:animate-fadeIn"
         >
           Skyrocketing healthcare costs globally have pushed individuals to
           explore options beyond their home countries. However, navigating a sea

@@ -4,7 +4,7 @@
     <div
       class="flex items-center flex-wrap text-center mb-20 js-show-on-scroll"
     >
-      <div class="flex w-full md:w-1/2 mb-20 justify-center">
+      <div class="flex w-full md:w-1/2 mb-20 md:mb-0 justify-center">
         <!-- <img
           src="@/assets/images/mainconcept1.png"
           class="rounded-lg"
@@ -14,8 +14,8 @@
           <source src="video/1.mp4" type="video/mp4" />
         </video>
       </div>
-      <div class="w-full md:w-1/2 px-12 pl-10">
-        <h4 class="text-3xl font-bold mb-3">
+      <div class="w-full md:w-1/2 md:p-8">
+        <h4 class="md:text-2xl text-lg font-bold mb-3">
           Connecting Travellers with Affordable High-Quality Medical and
           Wellness Providers in Thailand
         </h4>
@@ -33,8 +33,8 @@
     <div
       class="flex items-center flex-wrap flex-col-reverse md:flex-row text-center mb-20 js-show-on-scroll"
     >
-      <div class="w-full md:w-1/2 px-12 mb-20">
-        <h4 class="text-3xl font-bold mb-3">
+      <div class="w-full md:w-1/2 md:p-8">
+        <h4 class="md:text-2xl text-lg font-bold mb-3">
           Ensuring Quality and Transparency in Medical and Wellness Provider
           Selection
         </h4>
@@ -50,7 +50,7 @@
         </p>
       </div>
       <!--image-->
-      <div class="flex w-full md:w-1/2 mb-20 justify-center">
+      <div class="flex w-full md:w-1/2 mb-20 md:mb-0 justify-center">
         <!-- <img
           src="@/assets/images/mainconcept2.png"
           class="rounded-lg"
@@ -65,7 +65,7 @@
     <div
       class="flex items-center flex-wrap mb-20 text-center js-show-on-scroll"
     >
-      <div class="flex w-full md:w-1/2 px-12 mb-20 justify-center">
+      <div class="flex w-full md:w-1/2 mb-20 md:mb-0 justify-center">
         <!-- <img
           src="@/assets/images/mainconcept3.png"
           class="rounded-lg"
@@ -75,8 +75,8 @@
           <source src="video/3.mp4" type="video/mp4" />
         </video>
       </div>
-      <div class="w-full md:w-1/2 px-12 pl-10">
-        <h4 class="text-3xl font-bold mb-3">
+      <div class="w-full md:w-1/2 md:p-8">
+        <h4 class="md:text-2xl text-lg font-bold mb-3">
           Simplifying Healthcare Provider Booking and Scheduling for Travellers.
         </h4>
         <p class="mb-8 text-gray-500">

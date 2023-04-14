@@ -2,7 +2,7 @@
   <section id="contact" class="bg-gray-900 p-10">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md js-show-on-scroll">
       <h2
-        class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white"
+        class="mb-4 md:text-3xl text-xl tracking-tight font-extrabold text-center text-white"
       >
         Contact Us
       </h2>
@@ -27,7 +27,7 @@
             type="email"
             id="email"
             class="shadow-sm text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:border-primary-500 shadow-sm-light"
-            placeholder="name@flowbite.com"
+            placeholder="your email address"
             required
           />
         </div>
@@ -42,7 +42,7 @@
             type="text"
             id="subject"
             class="block p-3 w-full text-sm rounded-lg border shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
-            placeholder="Let us know how we can help you"
+            placeholder="Subject"
             required
           />
         </div>
@@ -98,7 +98,7 @@
       <div
         v-show="failalert"
         id="alert-2"
-        class="flex p-4 mb-4 text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400"
+        class="flex p-4 mb-4 mt-4 text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400"
         role="alert"
       >
         <svg
