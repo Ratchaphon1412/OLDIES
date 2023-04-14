@@ -17,7 +17,7 @@
       <div class="w-full md:w-1/2 md:p-8">
         <h4 class="md:text-2xl text-lg font-bold mb-3">
           Connecting Travellers with Affordable High-Quality Medical and
-          Wellness Providers in Thailand
+          Healthcare Providers in Thailand
         </h4>
         <p class="mb-8 text-gray-500">
           Oldies compiles a list of medical and wellness providers in Thailand
