@@ -15,7 +15,7 @@
           of diverse providers, differing quality standards, and fluctuating
           prices creates a time consuming, stressful, and frustrating experience
           for travellers. A groundbreaking solution is urgently needed to
-          simplify this process and transform the medical and healthcare
+          simplify this process and transform the medical and healthcare journey
         </p>
       </div>
     </div>
